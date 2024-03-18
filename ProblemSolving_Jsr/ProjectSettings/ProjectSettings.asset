@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 4aff90e0a24b96649ac90718193e0a86
+  productGUID: b8f942739dcca6f478afde850c2cde66
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: ProblemSolving_Jsr
+  productName: Problem_Solving2week
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -76,7 +76,6 @@ PlayerSettings:
   androidMinimumWindowWidth: 400
   androidMinimumWindowHeight: 300
   androidFullscreenMode: 1
-  androidAutoRotationBehavior: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 1
@@ -674,14 +673,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: ProblemSolving_Jsr
+  metroPackageName: Problem_Solving2week
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: ProblemSolving_Jsr
+  metroApplicationDescription: Problem_Solving2week
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -750,10 +749,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: c194541a-4eca-4379-a9e4-e232c9ad0696
+  cloudProjectId: 357c52df-1c78-4944-9a32-6809e51c5a35
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: ProblemSolving_Jsr
+  projectName: Problem_Solving2week
   organizationId: tjdfyd3133
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
