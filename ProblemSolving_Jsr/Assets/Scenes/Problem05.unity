@@ -309,7 +309,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &1114481384
+--- !u!43 &1370980908
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -351,6 +351,10 @@ Mesh:
     m_Channels:
     - stream: 0
       offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
       format: 0
       dimension: 3
     - stream: 0
@@ -401,12 +405,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 240
-    _typelessdata: 000000000000000000000000000080bf000000c0000000000000803f000000c00000000000006040000000c0000000000000c03f000060c000000000000020400000c0c00000000000000000000090c000000000000020c00000c0c0000000000000c0bf000060c000000000000060c0000000c000000000000000000000000000002041000080bf000000c0000020410000803f000000c00000204100006040000000c0000020410000c03f000060c000002041000020400000c0c00000204100000000000090c000002041000020c00000c0c0000020410000c0bf000060c000002041000060c0000000c000002041
+    m_DataSize: 480
+    _typelessdata: 000000000000000000000000000000000000000000000000000080bf000000c0000000000000000000000000000000000000803f000000c00000000000000000000000000000000000006040000000c0000000000000000000000000000000000000c03f000060c000000000000000000000000000000000000020400000c0c00000000000000000000000000000000000000000000090c000000000000000000000000000000000000020c00000c0c0000000000000000000000000000000000000c0bf000060c000000000000000000000000000000000000060c0000000c000000000000000000000803f00000000000000000000000000002041000000000000000000000000000080bf000000c000002041000000000000803f000000000000803f000000c00000204100000000000000000000000000006040000000c0000020410000000000000000000000000000c03f000060c000002041000000000000000000000000000020400000c0c00000204100000000000000000000000000000000000090c000002041000000000000000000000000000020c00000c0c0000020410000000000000000000000000000c0bf000060c000002041000000000000000000000000000060c0000000c000002041000000000000803f00000000
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -474,7 +474,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1287666078
+--- !u!1 &1403906522
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -482,10 +482,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1287666082}
-  - component: {fileID: 1287666081}
-  - component: {fileID: 1287666080}
-  - component: {fileID: 1287666079}
+  - component: {fileID: 1403906526}
+  - component: {fileID: 1403906525}
+  - component: {fileID: 1403906524}
+  - component: {fileID: 1403906523}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -493,13 +493,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!23 &1287666079
+--- !u!23 &1403906523
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287666078}
+  m_GameObject: {fileID: 1403906522}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -535,45 +535,66 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1287666080
+--- !u!33 &1403906524
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287666078}
-  m_Mesh: {fileID: 1114481384}
---- !u!114 &1287666081
+  m_GameObject: {fileID: 1403906522}
+  m_Mesh: {fileID: 1370980908}
+--- !u!114 &1403906525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287666078}
+  m_GameObject: {fileID: 1403906522}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd988a5b0f703f9438cdad8ef44e556a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1287666082
+  vertexNormals:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
+--- !u!4 &1403906526
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287666078}
+  m_GameObject: {fileID: 1403906522}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.14, y: 5.5, z: 10.512953}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5228972, y: 1.6288681, z: 8.8933525}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 400724079}
   - {fileID: 261040949}
-  - {fileID: 1287666082}
+  - {fileID: 1403906526}
